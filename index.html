@@ -381,6 +381,7 @@ main { padding-top: 28px; }
 @media (max-width: 860px) {
   .hero-bento { grid-template-columns: 1fr 1fr; }
   .hero-photo { grid-column: 1 / 3; grid-row: 1; aspect-ratio: 16/9; }
+  .hero-photo img { object-position: 50% 22%; }
   .hero-intro { grid-column: 1 / 3; grid-row: 2; padding: 32px; }
   .hero-status { grid-column: 1 / 3; grid-row: 3; }
   .cta-primary { grid-column: 1; grid-row: 4; }
@@ -396,6 +397,7 @@ main { padding-top: 28px; }
   .about-intro, .thesis-text, .project-content, .contact-card { padding: 26px 22px; }
   .hero-bento { grid-template-columns: 1fr; }
   .hero-photo, .hero-intro, .hero-status { grid-column: 1; }
+  .hero-photo { aspect-ratio: 4 / 5; }
   .cta-primary, .cta-secondary { grid-column: 1; }
   .cta-primary { grid-row: 4; }
   .cta-secondary { grid-row: 5; }
@@ -456,7 +458,7 @@ main { padding-top: 28px; }
   <div class="wrap">
     <div class="section-head">
       <div class="badge-chip">About Me</div>
-      <h2>I build immersive systems to study how people understand technology.</h2>
+      <h2>I build prototypes and study how people interact with them.</h2>
     </div>
     <div class="about-grid">
       <div class="about-intro">
